@@ -25,15 +25,11 @@ public class MainActivity extends AppCompatActivity {
         startActivity(intent);
     }
 
-    public void launchQuiz(View v)
-    {
-        Intent intent0 = new Intent(this, quiz.class);
-        startActivity(intent0);
-    }
+
 
     public void launchRepo(View v)
     {
-        Uri uri = Uri.parse("https://github.com/BSEF19M530/M530_MobileComputing");
+        Uri uri = Uri.parse("https://github.com/Bsef19m516/Mobile_Computing_tasks.git");
         Intent intent = new Intent(Intent.ACTION_VIEW, uri);
         startActivity(intent);
     }

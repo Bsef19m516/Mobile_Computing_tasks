@@ -20,7 +20,7 @@
         app:layout_constraintEnd_toStartOf="@+id/alphaTV"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        tools:text="Alif" />
+        tools:text="A" />
 
     <TextView
         android:id="@+id/alphaTV"
@@ -34,7 +34,7 @@
         android:textSize="80sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        tools:text="@string/a1" />
+        tools:text="a" />
 
     <RelativeLayout
         android:id="@+id/rforimg"
@@ -54,8 +54,9 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_alignParentTop="true"
+            android:layout_marginTop="112dp"
             android:contentDescription="@string/Alpha"
-            app:srcCompat="@drawable/alif" />
+            app:srcCompat="@drawable/apple" />
 
         <TextView
             android:id="@+id/nameTV"
@@ -65,14 +66,14 @@
             android:layout_alignParentStart="true"
             android:layout_alignParentEnd="true"
             android:layout_alignParentBottom="true"
-            android:layout_marginStart="100dp"
-            android:layout_marginTop="0dp"
-            android:layout_marginEnd="100dp"
-            android:layout_marginBottom="120dp"
+            android:layout_marginStart="80dp"
+            android:layout_marginTop="33dp"
+            android:layout_marginEnd="120dp"
+            android:layout_marginBottom="88dp"
             android:textAlignment="center"
             android:textAppearance="@style/TextAppearance.AppCompat.Medium"
             android:textColor="@color/purple_500"
-            tools:text="Aarnab (Rabbit)" />
+            tools:text="Apple" />
     </RelativeLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

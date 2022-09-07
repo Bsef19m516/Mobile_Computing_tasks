@@ -10,9 +10,6 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MyApplication" >
         <activity
-            android:name=".quiz"
-            android:exported="false" />
-        <activity
             android:name=".alphaPage"
             android:exported="false" />
         <activity
